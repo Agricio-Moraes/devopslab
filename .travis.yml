@@ -5,6 +5,6 @@ deploy:
   provider: heroku
   api_key: $HEROKU_API_KEY
   edge: true 
-  app: devopsla-agriciomoraes
+  app: https://devopslab-agriciomoraes.herokuapp.com/
   on:
       branch: main
