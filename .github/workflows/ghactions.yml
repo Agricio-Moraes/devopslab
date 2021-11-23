@@ -16,7 +16,6 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       
-      
-- name: Deploy to Heroku
-  uses: AkhileshNS/heroku-deploy@v3.12.12
+      - name: Deploy to Heroku
+        uses: AkhileshNS/heroku-deploy@v3.12.12
 
